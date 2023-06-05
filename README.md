@@ -7,6 +7,11 @@
 - Lombok
 - JUnit 4
 
+## Running
+- ```docker-compose up``` from main directory for database container and ddl initialize
+- ```mvn spring-boot:run``` from main directory for application running
+- test from postman or curl with ip and port ```localhost:8080```
+
 ## API Spec
 - Member API
   - Menambahkan Peminjam
