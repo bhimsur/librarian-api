@@ -1,6 +1,7 @@
 # Librarian API
 
 ## Tech Stack
+- Maven 3
 - Java 11
 - Spring Boot 2.1.15
 - Postgres 14
