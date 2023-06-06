@@ -34,7 +34,7 @@ ALTER SEQUENCE library_management_service.transaction_hist_seq OWNER TO library_
 GRANT ALL ON SEQUENCE library_management_service.transaction_hist_seq TO library_management_service;
 
 CREATE TABLE library_management_service.book (
-	id numeric(20) NOT NULL DEFAULT nextval('member_seq'::regclass),
+	id numeric(20) NOT NULL DEFAULT nextval('book_seq'::regclass),
 	"name" varchar(150) NULL,
 	isbn varchar(13) NOT NULL,
 	stock numeric(4) NOT NULL DEFAULT 0,
